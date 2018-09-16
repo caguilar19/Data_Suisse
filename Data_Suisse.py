@@ -93,7 +93,7 @@ line_chart = pygal.Line(
 line_chart.title = 'Durée de Mariage avant de Divorce en Suisse:\n1876-2016'
 line_chart.x_labels = ans
 line_chart.x_labels_major = ans[::20]
-line_chart.add('Moins Que Un An', moins_que_un)
+line_chart.add('Moins Qu\'Un An', moins_que_un)
 line_chart.add('Un An', un)
 line_chart.add('Deux Ans', deux)
 line_chart.add('3-5 Ans', trois_a_cinq)
